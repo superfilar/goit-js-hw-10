@@ -8,10 +8,6 @@ body {
     background-color: #f0f0f0;
 }
 
-.hidden {
-    display: none;
-}
-
 .cat-info {
     display: flex;
     padding: 30px;
@@ -105,4 +101,8 @@ h2{
     100% {
         clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
     }
+}
+
+.hidden {
+    display: none;
 }
